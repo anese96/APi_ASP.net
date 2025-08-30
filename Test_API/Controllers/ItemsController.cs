@@ -89,8 +89,6 @@ namespace Test_API.Controllers
             item.CategoryId = mdl.CategoryId;
             await _db.SaveChangesAsync();
             return Ok();
-
-
         }
 
         [HttpDelete("{id}")]
